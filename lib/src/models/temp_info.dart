@@ -1,0 +1,4 @@
+enum TempFormat{
+  metric,
+  imperical
+}
