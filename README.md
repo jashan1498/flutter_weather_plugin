@@ -4,8 +4,6 @@ A flutter project to get weather forecasts.
 
 ## Getting Started
 
-# .
-
 StreamWeatherSDK is a Flutter SDK for fetching weather forecast data. It provides a simple interface for retrieving weather forecast information for specific locations and timestamps.
 
 ## Usage
