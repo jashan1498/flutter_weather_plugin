@@ -22,11 +22,11 @@ To use the StreamWeatherSDK, follow these steps:
     TempFormat.celsius, // Temperature format (Celsius/Fahrenheit)
     );
 
-    if (result.error != null) {
+    if (result.value != null) {
+        // Handle weather data
+        final weatherData = result.value;
+    } else {
         // Handle error
         final errorMessage = result.error;
-    } else {
-        final weatherData = result.value;
-        // Handle weather data
     }
 ```
